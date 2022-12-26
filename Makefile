@@ -126,4 +126,4 @@ build-debian:										## builds debian container
 	$(call func_print_header,build graph-easy docker on debian base)
 	@echo ":: build debian container :: output as graph-easy-docker"
 	docker build -f ./Dockerfile -t graph-easy-docker .
-	@echo "to run container use : docker run graph-easy-docker"
+	@echo "see readme for run examples : make readme"
